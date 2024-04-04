@@ -1,0 +1,43 @@
+body {
+  background-color: darkgrey;
+}
+#fotos {
+  width: 100%;
+  height: auto;
+  display: grid;
+  margin-bottom: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+.row {
+  background-color: #54d454;
+}
+#topbar {
+  display:flex;
+  margin-left: 40%;
+}
+#topbar img {
+  height: 80px;
+  margin-left:auto;
+}
+#navbar {
+  background-color: #2aea2a;
+}
+#article {
+  min-height: 90%;
+  background-color: #2aea2a;
+  padding: 10px;
+}
+#aside {
+  background-color: #2aea2a;
+}
+a img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+h1, h2 {
+  font-family: cinzel decorative;
+}
+h2 {
+  margin: 30px 0 30px 0;
+}
